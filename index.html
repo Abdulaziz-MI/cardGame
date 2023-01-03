@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cards</title>
+</head>
+
+<body>
+    <h1>Cards</h1>
+
+    <div id="introduction">
+    <p> You are green and the CPU is red
+        <!-- The one with the bigger value wins the round and takes both cards, <br><br> in case of a draw each player returns their card into their deck
+        The winner is the one that empties the opposition's <br> -->
+        click Play to flip the Cards.</p>
+    </div>
+    <button id="startBtn" type="">Play</button>
+
+ <div class="container">
+
+
+
+    <div class="computer-deck deck"></div>
+    <div class="computer-card-slot card-slot" data-value=""></div>
+
+    <div class="text">Text</div>
+    <div class="player-deck deck"></div>
+    <div class="player-card-slot card-slot" data-value=""> </div>
+</div>
+
+    <script src="script.js" type="module"></script>
+    <script type="module" src="./support/deck.js"></script>
+</body>
+
+</html>
