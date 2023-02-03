@@ -9,4 +9,4 @@ the winner is the one who empties their oppositions deck.
 
 (I did not worry about styling too much, this was mostly to practice JS classes using decks)
 
-https://abdulaziz-mi.github.io/cardGame/
+https://abdulaziz-mi.github.io/card_game/
